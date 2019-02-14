@@ -1,0 +1,70 @@
+body {
+  background-color: #f3f3f3;
+  color: white;
+  padding: 0px;
+  margin: 0px;
+  font-family: arial, helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body>header {
+  background-color: #000;
+  background: #54658c;
+  border-radius: 0px;
+  width: 200px;
+  position: fixed;
+  top: 0px;
+  z-index: 99;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+article {
+  flex-grow: 1;
+  flex-basis: 100vh;
+  margin: 0 0 0 0;
+
+}
+
+[data-container="sticky"] {
+  position: sticky;
+  top: 40vh;
+}
+
+[data-card='card'] {
+  width: 40%;
+  height: 30%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: yellow;
+  margin: 1em;
+}
+
+span {
+  margin-bottom: 2em;
+  display: block;
+}
+
+section>header, main h2 {
+
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin-left: 247px;
+}
+
+article:nth-child(odd) {
+  color: black;
+}
+
+article:nth-child(even) {
+  color: white;
+}

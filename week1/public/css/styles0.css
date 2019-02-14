@@ -1,0 +1,86 @@
+body {
+  background-color: #607D8B;
+  color: white;
+  padding: 0px;
+  margin: 0px;
+  font-family: arial, helvetica, sans-serif;
+}
+
+body>header {
+  background-color: #000;
+  background: #54658c;
+  border-radius: 0px;
+  width: 200px;
+  position: fixed;
+  top: 0px;
+  z-index: 99;
+  text-align: center;
+}
+
+section>header, main h2 {
+
+  margin: auto;
+  width: 80%;
+  border-radius: 3px;
+  background-color: #999;
+
+
+
+}
+header{
+  z-index: 50;
+  position: sticky;
+  /* top: 113.88px; */
+}
+
+article {
+
+  padding: 0.5em;
+
+  border: solid;
+  background-color: #ccc;
+  border-width: 2px;
+  border-color: white;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+}
+
+h1 {
+  text-align: center;
+  padding: 0px;
+}
+
+h2 {
+  text-align: center;
+}
+
+
+h3 {}
+
+div {
+  font-size: 200%;
+}
+
+main {
+  position: relative;
+
+  margin-left: 208px;
+}
+
+section {
+
+
+}
+
+article:nth-child(odd) {
+  background-color: white;
+  color: black;
+
+}
+
+article:nth-child(even) {
+  background-color: black;
+  color: white;
+
+}
