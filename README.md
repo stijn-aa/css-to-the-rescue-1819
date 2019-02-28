@@ -1,4 +1,8 @@
 # Menu Cards
+
+live demo: https://cardmenu.netlify.com
+
+
 This application aims to create a response restaurant menu using mainly CSS and HTML. I received the task to create this using no classes and no ids to target elements.
 
 This is my first css project so i chose to not limit myself right away instead i would build first and pick restrictions later.
