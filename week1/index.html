@@ -6,7 +6,7 @@
 	<title>A template for a responsive restaurant menu</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style>
-	@import url('https://fonts.googleapis.com/css?family=Roboto');
+		@import url('https://fonts.googleapis.com/css?family=Roboto');
 	</style>
 	<link rel="stylesheet" href="public/css/styles1.css">
 	<!-- SUGGESTIONS FOR STYLING
@@ -18,8 +18,37 @@
 
 
 
-	<img src="./public/img/boog.svg" data-svg="topLeft">
-	<img src="./public/img/boog.svg" data-svg="bottomRight">
+	<div data-svg="topLeft">
+		<?xml version="1.0" encoding="utf-8"?>
+		<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 617 616" style="enable-background:new 0 0 617 616;" xml:space="preserve">
+
+			<g>
+				<path class="st0" d="M606.2,0c0,334.1-270.9,605-605,605H0V0H606.2z" />
+
+				<path class="st1" d="M454.6,0c0,251.1-203.5,454.6-454.6,454.6V0H454.6z" />
+
+				<path class="st2" d="M303.1,0c0,167.4-135.7,303.1-303.1,303.1V0H303.1z" />
+
+				<path class="st3" d="M151.5,0c0,83.7-67.8,151.5-151.5,151.5V0H151.5z" />
+			</g>
+		</svg>
+	</div>
+	<div data-svg="bottomRight">
+		<?xml version="1.0" encoding="utf-8"?>
+		<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 617 616" style="enable-background:new 0 0 617 616;" xml:space="preserve">
+			<g>
+				<path class="st0" d="M606.2,0c0,334.1-270.9,605-605,605H0V0H606.2z" />
+
+				<path class="st1" d="M454.6,0c0,251.1-203.5,454.6-454.6,454.6V0H454.6z" />
+
+				<path class="st2" d="M303.1,0c0,167.4-135.7,303.1-303.1,303.1V0H303.1z" />
+
+				<path class="st3" d="M151.5,0c0,83.7-67.8,151.5-151.5,151.5V0H151.5z" />
+			</g>
+		</svg>
+	</div>
 
 
 
@@ -33,8 +62,8 @@
 			<div>
 
 
-				<h1><span>MENU</span> <span>+</span> <span>+</span></h1>
-				<p>appetizing since 1924</p>
+				<h1><span>MENU</span></h1>
+				<p id="button">appetizing in 2020</p>
 				<a href="#platters">Platters</a>
 				<a href="#eggs">Eggs</a>
 				<a href="#soup">Soup</a>
@@ -49,13 +78,12 @@
 		<main>
 
 			<article>
-				<div data-container="sticky">
+				<div data-container="stickyH">
 					<div data-header="header">
 						<a name="platters"></a>
 						<header>
 							<h2>Platters</h2>
 						</header>
-						<a href="#0">\/</a>
 					</div>
 				</div>
 			</article>
@@ -65,11 +93,9 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
 						<h3>smoked fish</h3>
 						<p><em>Serves 3 - 4 people</em> with cream cheese, onion, tomato, capers &amp; new potato salad and Russ &amp; daughters bread basket</p>
 						<span>80</span>
-						<a href="#2">next</a>
 					</div>
 				</div>
 			</article>
@@ -78,11 +104,9 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="2"></a>
 						<h3>the hattie</h3>
-						<p>smoked whitefish,gaspe nova,smoked salmon kippered (baked) salmon, sable</p>
+						<p>smoked whitefish, gaspe nova, smoked salmon kippered (baked) salmon, sable</p>
 						<span>80</span>
-						<a href="#3">next</a>
 					</div>
 				</div>
 			</article>
@@ -91,11 +115,9 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="3"></a>
 						<h3>the ida</h3>
-						<p>smoked salmon,gravlox gaspe nova smoked salmon, pastrami-cured salmon, </p>
+						<p>smoked salmon, gravlox gaspe nova smoked salmon, pastrami-cured salmon, </p>
 						<span>70</span>
-						<a href="#4">next</a>
 					</div>
 				</div>
 			</article>
@@ -104,23 +126,19 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="4"></a>
 						<h3>the anne</h3>
 						<p>smoked salmon, private stock sturgeon, sable, smoked brook trout, wild alaskan salmon roe</p>
 						<span>90</span>
-						<a href="#0">next</a>
 					</div>
 				</div>
 			</article>
 
 
 			<article>
-				<div data-container="sticky">
+				<div data-container="stickyH">
 					<div data-header="header">
 						<a name="eggs"></a>
 						<h2>Eggs</h2>
-						<p>served all the time</p>
-						<a href="#0">\/</a>
 					</div>
 				</div>
 			</article>
@@ -128,10 +146,9 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
 						<h3>Lox, eggs &amp; onions</h3>
 						<p>with toasted shissel rye</p>
-						<div>15</div>
+						<span>15</span>
 					</div>
 				</div>
 			</article>
@@ -139,10 +156,10 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
+
 						<h3>sturgeon, eggs &amp; onion</h3>
 						<p>with toasted pumpernickel</p>
-						<div>19</div>
+						<span>19</span>
 					</div>
 				</div>
 			</article>
@@ -150,10 +167,10 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
+
 						<h3>bella's matzo brei</h3>
 						<p>matzo, egg, applesauce, sour cream</p>
-						<div>12</div>
+						<span>12</span>
 					</div>
 				</div>
 			</article>
@@ -161,10 +178,10 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
+
 						<h3>lower sunny side</h3>
 						<p>sunny side up eggs, gaspe nova smoked salmon, potato latkes</p>
-						<div>16</div>
+						<span>16</span>
 					</div>
 				</div>
 			</article>
@@ -172,10 +189,10 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
+
 						<h3>eggs benny</h3>
 						<p>poached eggs, scottish smoked salmon, sautéed spinach, hollandaise, challah</p>
-						<div>18</div>
+						<span>18</span>
 					</div>
 				</div>
 			</article>
@@ -183,10 +200,10 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
+
 						<h3>farm egg omelette</h3>
 						<p>gaspe nova smoked salmon, cream cheese</p>
-						<div>15</div>
+						<span>15</span>
 					</div>
 				</div>
 			</article>
@@ -194,21 +211,20 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
+
 						<h3>soft scrambled eggs &amp; caviar</h3>
 						<p>custard-like egg, caviar with challah</p>
-						<div>180</div>
+						<span>180</span>
 					</div>
 				</div>
 			</article>
 
 
 			<article>
-				<div data-container="sticky">
+				<div data-container="stickyH">
 					<div data-header="header">
 						<a name="soup"></a>
 						<h2>Soup</h2>
-						<a href="#0">\/</a>
 					</div>
 				</div>
 			</article>
@@ -217,10 +233,10 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
+
 						<h3>Matzo Ball</h3>
 						<p>chicken, vegetables, matzo ball</p>
-						<div>8</div>
+						<span>8</span>
 					</div>
 				</div>
 			</article>
@@ -228,10 +244,10 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
+
 						<h3>Mushroom Barley</h3>
 						<p>mushrooms, barley with shissel rye bread</p>
-						<div>8</div>
+						<span>8</span>
 					</div>
 				</div>
 			</article>
@@ -239,10 +255,10 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
+
 						<h3>Borscht</h3>
 						<p>served chilled: beets, sour cream, dill with pumpernickel</p>
-						<div>8</div>
+						<span>8</span>
 					</div>
 				</div>
 			</article>
@@ -250,20 +266,20 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
+
 						<h3>Smoked Whitefish Chowder</h3>
 						<p>dill, esplette pepper, matzo</p>
-						<div>10</div>
+						<span>10</span>
 					</div>
 				</div>
 			</article>
 
 			<article>
-				<div data-container="sticky">
+				<div data-container="stickyH">
 					<div data-header="header">
 						<a name="salads"></a>
 						<h2>Salads</h2>
-						<a href="#0">\/</a>
+
 					</div>
 				</div>
 			</article>
@@ -271,10 +287,10 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
+
 						<h3>Mixed Green</h3>
 						<p>greens, fennel, dill, capers, citrus dressing</p>
-						<div>15</div>
+						<span>15</span>
 					</div>
 				</div>
 			</article>
@@ -282,10 +298,10 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
+
 						<h3>Chopped Salad</h3>
 						<p>smoked whitefish, avocado, beets, egg, apple, mixed greens, matzo, buttermilk dressing</p>
-						<div>15</div>
+						<span>15</span>
 					</div>
 				</div>
 			</article>
@@ -293,10 +309,10 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
+
 						<h3>Smoked Trout& Potato</h3>
 						<p>smoked trout, watercress, caper mustard dressing</p>
-						<div>14</div>
+						<span>14</span>
 					</div>
 				</div>
 			</article>
@@ -304,20 +320,20 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
+
 						<h3>Smoked Trout& Potato</h3>
 						<p>smoked trout, watercress, caper mustard dressing</p>
-						<div>14</div>
+						<span>14</span>
 					</div>
 				</div>
 			</article>
 
 			<article>
-				<div data-container="sticky">
+				<div data-container="stickyH">
 					<div data-header="header">
 						<a name="sweet"></a>
 						<h2>Sweet</h2>
-						<a href="#0">\/</a>
+
 					</div>
 				</div>
 			</article>
@@ -326,10 +342,10 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
+
 						<h3>blintzes</h3>
 						<p>fruit compote, sour cream</p>
-						<div>8</div>
+						<span>8</span>
 					</div>
 				</div>
 			</article>
@@ -337,10 +353,10 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
+
 						<h3>babka french toast</h3>
 						<p>chocolate babka, sour cream, berries</p>
-						<div>10</div>
+						<span>10</span>
 					</div>
 				</div>
 			</article>
@@ -348,10 +364,10 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
+
 						<h3>noodle kugel</h3>
 						<p>farmer cheese, raisins, egg noodles</p>
-						<div>7</div>
+						<span>7</span>
 					</div>
 				</div>
 			</article>
@@ -359,10 +375,10 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
+
 						<h3>challah bread pudding</h3>
 						<p>dried apricots, caramel sauce</p>
-						<div>9</div>
+						<span>9</span>
 					</div>
 				</div>
 			</article>
@@ -370,10 +386,10 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
+
 						<h3>halvah ice cream</h3>
 						<p>halvah, sesame, salted caramel</p>
-						<div>8</div>
+						<span>8</span>
 					</div>
 				</div>
 			</article>
@@ -381,10 +397,10 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
+
 						<h3>grandpa's grapefruit</h3>
 						<p>grapefruit, white germ, maple syrup</p>
-						<div>6</div>
+						<span>6</span>
 					</div>
 				</div>
 			</article>
@@ -392,10 +408,10 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
+
 						<h3>baked farmer cheese</h3>
 						<p>blueberry, walnut &amp; honey with pumpernickel</p>
-						<div>7</div>
+						<span>7</span>
 					</div>
 				</div>
 			</article>
@@ -403,20 +419,20 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
+
 						<h3>cookie plate</h3>
 						<p>Russ &amp; daughters cookies &amp; sweets</p>
-						<div>8</div>
+						<span>8</span>
 					</div>
 				</div>
 			</article>
 
 			<article>
-				<div data-container="sticky">
+				<div data-container="stickyH">
 					<div data-header="header">
 						<a name="noshes"></a>
 						<h2>Noshes</h2>
-						<a href="#0">\/</a>
+
 					</div>
 				</div>
 			</article>
@@ -425,10 +441,10 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
+
 						<h3>Russ &amp; Daughters Knishes</h3>
 						<p>Potato, carmelized onion, mustard</p>
-						<div>8</div> <!-- price -->
+						<span>8</span> <!-- price -->
 					</div>
 				</div>
 			</article>
@@ -436,10 +452,10 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
+
 						<h3>Hot Smoke/Cold Smoke</h3>
 						<p>Kippered baked Salmon &amp; Scottish smoked salmon spread, waffle-cut potato chips</p>
-						<div>13</div>
+						<span>13</span>
 					</div>
 				</div>
 			</article>
@@ -447,10 +463,10 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
+
 						<h3>Potato latkes</h3>
 						<p>Salmon roe and creme fraiche</p>
-						<div>13</div>
+						<span>13</span>
 					</div>
 				</div>
 			</article>
@@ -458,10 +474,10 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
+
 						<h3>Kasha Varnishkas</h3>
 						<p>buckwheat, caramelized onion, bowtie egg noodles</p>
-						<div>15</div>
+						<span>15</span>
 					</div>
 				</div>
 			</article>
@@ -469,10 +485,10 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
+
 						<h3>Chopped liver</h3>
 						<p>Matzo, pickled red onion</p>
-						<div>9</div>
+						<span>9</span>
 					</div>
 				</div>
 			</article>
@@ -480,10 +496,10 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
+
 						<h3>Super heebster</h3>
 						<p>whitefish &amp; baked salmon salad, wasabi-infused fish roe, horseradish dill cream cheese, bagel toast</p>
-						<div>10</div>
+						<span>10</span>
 					</div>
 				</div>
 			</article>
@@ -491,10 +507,10 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
+
 						<h3>Pastrami Russ</h3>
 						<p>pastrami-cured salmon, muenster cheese, sauerkraut, mustard, pickle, pretzel roll</p>
-						<div>12</div>
+						<span>12</span>
 					</div>
 				</div>
 			</article>
@@ -502,21 +518,21 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
+
 						<h3>sours</h3>
 						<p>pickled vegetables, pickles from the barrel</p>
-						<div>7</div>
+						<span>7</span>
 					</div>
 				</div>
 			</article>
 
 			<article>
-				<div data-container="sticky">
+				<div data-container="stickyH">
 					<div data-header="header">
 						<a name="sandwiches"></a>
 						<h2>Open-faced Sandwiches</h2>
 						</header>
-						<a href="#0">\/</a>
+
 					</div>
 				</div>
 			</article>
@@ -524,10 +540,10 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
+
 						<h3>the ic</h3>
 						<p>gaspe nova smoked salmon, cream cheese, bagel-bialy, tomato, onion, capers</p>
-						<div>16</div>
+						<span>16</span>
 					</div>
 				</div>
 			</article>
@@ -535,10 +551,10 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
+
 						<h3>mensch</h3>
 						<p>sturgeon, butter, bagel/bialy, tomato, onion, capers</p>
-						<div>22</div>
+						<span>22</span>
 					</div>
 				</div>
 			</article>
@@ -546,10 +562,10 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
+
 						<h3>shtetl</h3>
 						<p>smoked sable, goat cream cheese, bagel-bialy, tomato, onion, capers</p>
-						<div>18</div>
+						<span>18</span>
 					</div>
 				</div>
 			</article>
@@ -557,10 +573,10 @@
 			<article>
 				<div data-container="sticky">
 					<div data-card="card">
-						<a name="1"></a>
+
 						<h3>yum kippered</h3>
 						<p>kippered (baked) salmon, cream cheese, bagel/bialy, tomato, onion, capers</p>
-						<div>16</div>
+						<span>16</span>
 					</div>
 				</div>
 			</article>
@@ -572,7 +588,7 @@
 		</div>
 
 	</div>
-
+ <script type="text/javascript" src="public/js/Script.js"></script>
 </body>
 
 </html>
