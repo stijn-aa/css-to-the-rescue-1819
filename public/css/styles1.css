@@ -71,6 +71,8 @@
   }
 
   header>div>p {
+    background-color: #efefef;
+    font-size: 0.9em;
     text-align: center;
     border-radius: 10px;
     padding: 5px;
@@ -200,13 +202,3 @@
     color: var(--btnc);
     font-weight: bold;
   }
-
-[data-card='card']:hover {
-
-
-}
-
-
-  article:nth-child(odd) {}
-
-  article:nth-child(even) {}
