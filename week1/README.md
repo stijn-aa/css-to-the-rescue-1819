@@ -6,6 +6,7 @@ This is my first css project so i chose to not limit myself right away instead i
 The restrictions i picked are:
 
 [-] max 5kb
+
 [-] no media quarys
 
 
@@ -14,11 +15,15 @@ The concept is based on a deck of playing cards. When you scroll through the men
 
 # features
 [-] Scrolling cards
+
 [-] Quick jump
+
 [-] Night mode
+
 [-] 
 
-# wishlist
+# Wishlist
 
 [-] Svg animations when scrolling
+
 [-] Better responsivens
